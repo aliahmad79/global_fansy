@@ -1,0 +1,21 @@
+{
+  "app_name": "Global Fancy",
+  "login": "Login",
+  "enter_email": "Enter Email",
+  "forgot_password": "Forgot Password?",
+  "dont_have_an_account": "Don't Have An Account?",
+  "sign_up": "Sign Up",
+  "confirm_password": "Confirm Password",
+  "full_name": "Full Name",
+  "user_name": "User Name",
+  "required_field": "This Field is Required",
+  "Forgot_password": "Forgot password",
+  "reset_password": "Reset Password",
+  "Forgot_password_text": "Enter your email address, we’ll send you the instructions on how to change your password.",
+  "password": "Password",
+  "new_password": "New Password",
+  "reset_password_text": "Please Enter Your New Password to your Account.",
+  "done": "DONE",
+  "enter_password": "Enter Password"
+
+}
