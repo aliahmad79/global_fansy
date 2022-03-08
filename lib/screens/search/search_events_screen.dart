@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:globalfancy/Screens/search/search_event_model.dart';
 import 'package:globalfancy/common/theam_prefrence.dart';
+import 'package:globalfancy/screens/search/search_event_model.dart';
 
 class SearchEventsScreen extends StatefulWidget {
   const SearchEventsScreen({Key? key}) : super(key: key);

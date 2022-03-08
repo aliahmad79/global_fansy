@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:globalfancy/Screens/search/search_model.dart';
 import 'package:globalfancy/common/theam_prefrence.dart';
+import 'package:globalfancy/screens/search/search_model.dart';
 
 class HashtagsSearchScreen extends StatefulWidget {
   const HashtagsSearchScreen({Key? key}) : super(key: key);

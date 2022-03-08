@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:globalfancy/Screens/search/hashtags_screen.dart';
-import 'package:globalfancy/Screens/search/search_events_screen.dart';
-import 'package:globalfancy/Screens/search/search_model.dart';
-import 'package:globalfancy/Screens/search/search_users_screen.dart';
-import 'package:globalfancy/common/theam_prefrence.dart';
 import 'package:globalfancy/helper/colorExtension.dart';
+import 'package:globalfancy/screens/search/hashtags_screen.dart';
+import 'package:globalfancy/screens/search/search_events_screen.dart';
+import 'package:globalfancy/screens/search/search_users_screen.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({Key? key}) : super(key: key);

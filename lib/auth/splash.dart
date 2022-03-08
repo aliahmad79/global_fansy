@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:globalfancy/Screens/search/search_screen.dart';
 import 'package:globalfancy/helper/images/images.dart';
 import 'package:globalfancy/pages/auth/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -37,10 +36,8 @@ class Helper {
       preferences = value;
     });
     Future.delayed(Duration(seconds: 4), () {
-      Navigator.pushAndRemoveUntil(
-          context,
-          MaterialPageRoute(builder: (context) => SearchScreen()),
-          (route) => false);
+      Navigator.pushAndRemoveUntil(context,
+          MaterialPageRoute(builder: (context) => Login()), (route) => false);
     });
   }
 
